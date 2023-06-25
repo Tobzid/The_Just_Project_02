@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The styling for the nav bar starts here */
+nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px, 32px, 8px, 32px;
+    border: 2px solid #155EEF;
+    border-radius: 5px;
+}
+
+.navFirstImage img{
+    width: 20%;
+}
+
+nav .navSecond ul{
+    display: flex;
+    }
+
+nav .navSecond li{
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 10px;
+    }
+
+.navSecond li button{
+        padding: 5px 10px ; 
+        border: 1px solid #155EEF;
+        background-color: transparent;
+        border-radius: 5px;   
+    }
+
+    /* The syling for the first session startx here */
+    .firstSection{
+        width: 95%;
+        border: 2px solid #155EEF;
+        background-color: #F9FBFF;
+        border-radius: 5px; 
+        margin: 10px auto;
+    }
+
+.firstSectionContainerDiv{
+    display: flex;
+    margin: 64px 32px;
+}
+
+.firstDivInfirstSectionContainerDiv{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.secondDivInfirstSectionContainerDiv{
+    width: 40%;
+
+}
+
+.firstDivInfirstSectionContainerDiv #welcome{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #2E3A53;
+}
+
+.firstDivInfirstSectionContainerDiv h2{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #155EEF;
+}
+
+.firstDivInfirstSectionContainerDiv p{
+    width: 78%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #2E3A53;
+    margin-top: 20px;
+}
+
+.firstDivInfirstSectionContainerDiv button{
+    margin-top: 15px;
+    padding:5px ;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #155EEF;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+}
+
+.secondDivInfirstSectionContainerDiv img{
+    width: 514px;
+    height: 486px;
+    padding-right: 20px;
+}
+/* The styling of the first session ends here */
+
+/* The styling of the second section starts here */
+.secondSection{
+    width: 95%;
+    border: 2px solid #155EEF;
+    background-color: white;
+    border-radius: 5px; 
+    margin: 20px auto;
+}
+
+.secondSectionDivContainer{
+    display: flex;
+    padding: 30px 20px;
+}
+
+.firstDivInSecondSection{
+    width: 50%;
+}
+
+.secondDivInSecondSection{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.firstDivInSecondSection img{
+    width: 535px;
+    height: 384px;
+}
+
+.secondDivInSecondSection h2{
+    font-family: Halant;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041330;
+    }
+
+.secondDivInSecondSection P{
+    width: 604px;
+    height: 216px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+/* The styling for the second Section ends here */
+
+/* The third styling starts here */
+.thirdSection{
+    width: 95%;
+    border: 2px solid #155EEF;
+    background-color: white;
+    border-radius: 5px; 
+    margin: 20px auto;
+    /*position: relative;*/
+}
+
+.thirdSectionContainerDiv{
+    display: flex;
+    padding: 30px 20px;
+    
+}
+
+.firstDivInthirdSectionContainerDiv {
+    width: 620px;
+    padding: 32px 24px;
+    background-color: #F9FBFF;
+    /*position: absolute;   */
+}
+
+.firstDivInthirdSectionContainerDiv h1{
+    font-family: 'Halant';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #041330;
+}
+
+.firstDivInthirdSectionContainerDiv p{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.5px;
+color: #2E3A53;
+}
+
+.firstDivInthirdSectionContainerDiv ul{
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+.firstDivInthirdSectionContainerDiv h4{
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+
+/* The second Div inside the third section starts here */
+
+/*.secondDivInthirdSectionContainerDiv{
+    justify-content: flex-end;
+}*/
+.secondDivInthirdSectionContainerDiv img{
+    width:618px;
+    /*position: relative;*/
+    /*justify-content: flex-end;*/
+}
+
+
+/* The footer styling starts here */
+footer{
+    width: 95%;
+    margin: 20px auto;
+    border: 2px solid #155EEF;
+    border-radius: 5px;
+}
+
+.containerDivInFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.firstDivIncontainerDivInFooter img{
+   height: 50px;
+}
+
+.secondDivIncontainerDivInFooter img{
+    /*width: 15px;*/
+    height: 20px;
+    
+}
+
+
+@media screen and (max-width:1033px){
+    .secondDivInfirstSectionContainerDiv img{
+        width: 100%;
+    }
+    
+    /* The second section starts here */
+
+    .firstDivInSecondSection img{
+        width: 100%;
+    }
+
+    .firstDivInSecondSection{
+        width: 50%;
+    }
+    
+    .secondDivInSecondSection{
+        width: 50%;
+        padding-left: 5%;
+         }
+
+    .secondDivInSecondSection h2{
+        width: 100%;
+    }
+
+    .secondDivInSecondSection P{
+        width: 100%;
+        font-size: 100%;
+        font-weight: 100%;
+    }
+}
+
+@media screen and (max-width:699px) {
+    .firstSectionContainerDiv{
+        flex-direction: column;
+    }   
+
+    .firstDivInfirstSectionContainerDiv{
+        width: 100%;
+    }
+
+    .secondDivInfirstSectionContainerDiv{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .secondSectionDivContainer{
+        flex-direction: column-reverse;
+    }
+
+    .firstDivInSecondSection{
+        width: 100%;
+    }
+
+    .secondDivInSecondSection{
+        width: 100%;
+    }
+
+    .firstDivInfirstSectionContainerDiv #welcome{
+        text-align: center;
+    }
+
+    .firstDivInfirstSectionContainerDiv h2{
+        text-align: center;
+    }
+
+    .firstDivInfirstSectionContainerDiv p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .firstDivInfirstSectionContainerDiv button{
+        width: 100%;
+    }
+
+    .secondDivInSecondSection h2{
+        text-align: center;
+    }
+
+    .secondDivInSecondSection p{
+        /*text-align: center;*/
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    /* The footer styling start from here */
+    .thirdDivIncontainerDivInFooter{
+        display: colomn;
+    }
+
+
+
+}
+
+
+
+
+
+
+/* 
+
+.secondDivInSecondSection h2{
+    font-family: Halant;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041330;
+    }
+
+.secondDivInSecondSection P{
+    width: 604px;
+    height: 216px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+
+
+
+
+
+
+*/
