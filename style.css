@@ -38,6 +38,11 @@ nav .navSecond li{
         border-radius: 5px;   
     }
 
+    .closeNavBar img{
+        width: 20%;
+        display: none;
+    }
+
     /* The syling for the first session startx here */
     .firstSection{
         width: 95%;
@@ -298,6 +303,20 @@ footer{
         flex-direction: column;
     }   
 
+    .navFirstImage img{
+        width: 40%;
+    }
+
+/* This is for the closing NavBar */
+    .closeNavBar img{
+        width: 25%;
+        display: flex;
+        /*justify-content: flex-end;
+        align-items: flex-end;*/
+        float: right;
+        padding-right: 10%;
+    }
+
     .firstDivInfirstSectionContainerDiv{
         width: 100%;
     }
@@ -307,10 +326,6 @@ footer{
         padding: 5%;
     }
 
-    .navFirstImage img{
-        width: 40%;
-    }
-    
     .secondSectionDivContainer{
         flex-direction: column-reverse;
     }
@@ -350,12 +365,22 @@ footer{
         padding-left: 0%;
     }
 
-    /* The footer styling start from here */
-    .thirdDivIncontainerDivInFooter{
-        display: colomn;
+    /*The nav-bar styling starts here */
+    .navSecond{
+        display: none;
     }
 
+    /* The footer styling start from here */
+    .containerDivInFooter{
+        position: relative;
+    }
 
+    .thirdDivIncontainerDivInFooter{
+        position: absolute;
+        top: 65%;
+        right: 50%;
+        
+    }
 
 }
 
